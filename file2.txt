@@ -1,8 +1,29 @@
 Change to see jenkins do SOMETHING
 
+-------------------------------------
+Below is output of a conflict between branch3 and branch1
+	* Branch3 made a change, pushed and Jenkins picked it
+	  up and merged it into MASTER
+	* Branch1 made a change and pushed it before Jenkins
+	  was able to update Branch1 with the change made by
+	  branch3.  This caused MASTER to be out of sync. 
+-------------------------------------
+
+<<<<<<< HEAD
 CREATE CONFLICT BY BRANCH3
+=======
+CONFLICT BY BRANCH1
+>>>>>>> branch1_team
 
 Another change
 
 
 Touched by branch3
+
+
+-------------------------------------
+Resolution:
+	* Only resolution I can think of is for the Branch1 user
+	  to make sure they do a merge to MASTER before they do
+	  a push.
+-------------------------------------

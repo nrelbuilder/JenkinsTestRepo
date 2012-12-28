@@ -1,4 +1,5 @@
 A file added from branch 2
 
+---> DELIBERATE CONFLICT BY BRANCH3 (BRANCH3 PUSHED SECOND)
 
 blah blah

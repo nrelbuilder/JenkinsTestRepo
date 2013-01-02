@@ -1,8 +1,19 @@
 A file added from branch 2
 
+*************************************
+Could not auto merge so this hung when merging to MASTER
+*************************************
+
+
 ---> DELIBERATE CONFLICT BY BRANCH3 (BRANCH3 PUSHED SECOND)
+========BRANCH2========
+=======
 ========BRANCH3========
 ---> DELIBERATE CONFLICT BY BRANCH2 (BRANCH2 PUSHED FIRST)
+
+
+*************************************
+*************************************
 
 
 blah blah
